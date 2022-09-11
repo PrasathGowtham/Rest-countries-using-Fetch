@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.5;
+}
+ul li span{
+    font-weight: bold;
+    padding-left: 7px;
+    text-transform: capitalize;
+}
+#special{
+    font-weight: 600;
+    background: green;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.card-head p{
+    padding: 10px;
+    margin: 0;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+.modification{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-gap: 40px;
+
+}
+img{
+    width: 18rem;
+    height: 12rem;
+    size: cover;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.card{
+    background-color: darkgrey;
+    margin-left: 70px;
+    padding: 0 20px 0 20px;
+}
